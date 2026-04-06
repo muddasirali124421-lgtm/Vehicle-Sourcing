@@ -15,7 +15,7 @@ const About = () => {
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-heritage-green/5 to-transparent" />
       
       <div className="container-custom relative z-10">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 lg:gap-16 items-center">
           {/* Image Side */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -43,21 +43,21 @@ const About = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <span className="text-heritage-gold text-sm font-medium tracking-widest uppercase mb-4 block">
+            <span className="text-heritage-gold text-xs sm:text-sm font-medium tracking-widest uppercase mb-3 sm:mb-4 block">
               About Us
             </span>
-            <h2 className="text-4xl md:text-5xl font-serif font-semibold text-heritage-cream mb-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-heritage-cream mb-4 md:mb-6">
               A Legacy of
               <br />
               <span className="text-gradient">Automotive Excellence</span>
             </h2>
-            <p className="text-heritage-gray-light text-lg leading-relaxed mb-6">
+            <p className="text-heritage-gray-light text-base md:text-lg leading-relaxed mb-4 md:mb-6">
               Founded in 2008, Heritage Horsepower has established itself as the premier 
               curator of exceptional classic and luxury automobiles. Our team of passionate 
               experts combines decades of experience in automotive history, engineering, 
               and the global collector market.
             </p>
-            <p className="text-heritage-gray-light text-lg leading-relaxed mb-8">
+            <p className="text-heritage-gray-light text-base md:text-lg leading-relaxed mb-6 md:mb-8">
               We don't just source cars—we discover automotive treasures that tell stories, 
               preserve history, and represent the pinnacle of engineering artistry. Every 
               vehicle in our collection meets the most stringent standards of authenticity, 
@@ -65,7 +65,7 @@ const About = () => {
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 gap-4 sm:gap-6">
               {stats.map((stat, index) => (
                 <motion.div
                   key={stat.label}
@@ -75,12 +75,12 @@ const About = () => {
                   viewport={{ once: true }}
                   className="flex items-center space-x-4"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-heritage-gold/10 flex items-center justify-center">
-                    <stat.icon size={24} className="text-heritage-gold" />
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-heritage-gold/10 flex items-center justify-center">
+                    <stat.icon size={20} className="sm:w-6 sm:h-6 text-heritage-gold" />
                   </div>
                   <div>
-                    <p className="text-2xl font-serif font-bold text-heritage-cream">{stat.value}</p>
-                    <p className="text-sm text-heritage-gray-light">{stat.label}</p>
+                    <p className="text-xl sm:text-2xl font-serif font-bold text-heritage-cream">{stat.value}</p>
+                    <p className="text-xs sm:text-sm text-heritage-gray-light">{stat.label}</p>
                   </div>
                 </motion.div>
               ))}

@@ -22,8 +22,8 @@ const Footer = () => {
 
   return (
     <footer className="bg-heritage-charcoal border-t border-heritage-gold/20">
-      <div className="container-custom px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+      <div className="container-custom px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 lg:gap-12">
           {/* Brand Column */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -32,7 +32,7 @@ const Footer = () => {
             viewport={{ once: true }}
             className="lg:col-span-1"
           >
-            <Link to="/" className="flex items-center space-x-3 mb-6">
+            <Link to="/" className="flex items-center space-x-3 mb-4 md:mb-6">
               <div className="w-12 h-12 rounded-full bg-gradient-to-br from-heritage-gold to-heritage-gold-dark flex items-center justify-center">
                 <span className="text-heritage-charcoal font-serif font-bold text-xl">H</span>
               </div>
@@ -42,7 +42,7 @@ const Footer = () => {
                 </h2>
               </div>
             </Link>
-            <p className="text-heritage-gray-light text-sm leading-relaxed mb-6">
+            <p className="text-heritage-gray-light text-xs sm:text-sm leading-relaxed mb-4 md:mb-6">
               Curating exceptional classic and luxury automobiles for discerning collectors worldwide since 2008.
             </p>
             <div className="flex space-x-4">
@@ -50,9 +50,9 @@ const Footer = () => {
                 <a
                   key={index}
                   href="#"
-                  className="w-10 h-10 rounded-full bg-heritage-dark-light flex items-center justify-center text-heritage-gray-light hover:text-heritage-gold hover:bg-heritage-gold/10 transition-all duration-300"
+                  className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-heritage-dark-light flex items-center justify-center text-heritage-gray-light hover:text-heritage-gold hover:bg-heritage-gold/10 transition-all duration-300"
                 >
-                  <Icon size={18} />
+                  <Icon size={16} className="md:w-[18px] md:h-[18px]" />
                 </a>
               ))}
             </div>
@@ -65,13 +65,13 @@ const Footer = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-heritage-cream font-serif font-semibold text-lg mb-6">Company</h3>
-            <ul className="space-y-3">
+            <h3 className="text-heritage-cream font-serif font-semibold text-base md:text-lg mb-4 md:mb-6">Company</h3>
+            <ul className="space-y-2 md:space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.to}>
                   <Link
                     to={link.to}
-                    className="text-heritage-gray-light hover:text-heritage-gold transition-colors duration-300 text-sm"
+                    className="text-heritage-gray-light hover:text-heritage-gold transition-colors duration-300 text-xs sm:text-sm"
                   >
                     {link.label}
                   </Link>
@@ -87,13 +87,13 @@ const Footer = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-heritage-cream font-serif font-semibold text-lg mb-6">Services</h3>
-            <ul className="space-y-3">
+            <h3 className="text-heritage-cream font-serif font-semibold text-base md:text-lg mb-4 md:mb-6">Services</h3>
+            <ul className="space-y-2 md:space-y-3">
               {footerLinks.services.map((link, index) => (
                 <li key={`${link.to}-${index}`}>
                   <Link
                     to={link.to}
-                    className="text-heritage-gray-light hover:text-heritage-gold transition-colors duration-300 text-sm"
+                    className="text-heritage-gray-light hover:text-heritage-gold transition-colors duration-300 text-xs sm:text-sm"
                   >
                     {link.label}
                   </Link>
@@ -109,25 +109,25 @@ const Footer = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-heritage-cream font-serif font-semibold text-lg mb-6">Contact</h3>
-            <ul className="space-y-4">
+            <h3 className="text-heritage-cream font-serif font-semibold text-base md:text-lg mb-4 md:mb-6">Contact</h3>
+            <ul className="space-y-3 md:space-y-4">
               <li className="flex items-start space-x-3">
-                <MapPin size={18} className="text-heritage-gold mt-0.5 flex-shrink-0" />
-                <span className="text-heritage-gray-light text-sm">
+                <MapPin size={16} className="md:w-[18px] md:h-[18px] text-heritage-gold mt-0.5 flex-shrink-0" />
+                <span className="text-heritage-gray-light text-xs sm:text-sm">
                   150 Mayfair Lane<br />
                   London, W1K 2QF<br />
                   United Kingdom
                 </span>
               </li>
               <li className="flex items-center space-x-3">
-                <Phone size={18} className="text-heritage-gold flex-shrink-0" />
-                <a href="tel:+442071234567" className="text-heritage-gray-light hover:text-heritage-gold transition-colors text-sm">
+                <Phone size={16} className="md:w-[18px] md:h-[18px] text-heritage-gold flex-shrink-0" />
+                <a href="tel:+442071234567" className="text-heritage-gray-light hover:text-heritage-gold transition-colors text-xs sm:text-sm">
                   +44 (0) 20 7123 4567
                 </a>
               </li>
               <li className="flex items-center space-x-3">
-                <Mail size={18} className="text-heritage-gold flex-shrink-0" />
-                <a href="mailto:concierge@heritagehorsepower.com" className="text-heritage-gray-light hover:text-heritage-gold transition-colors text-sm">
+                <Mail size={16} className="md:w-[18px] md:h-[18px] text-heritage-gold flex-shrink-0" />
+                <a href="mailto:concierge@heritagehorsepower.com" className="text-heritage-gray-light hover:text-heritage-gold transition-colors text-xs sm:text-sm">
                   concierge@heritagehorsepower.com
                 </a>
               </li>
@@ -136,15 +136,15 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-16 pt-8 border-t border-heritage-gold/10 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <p className="text-heritage-gray-light text-sm">
+        <div className="mt-10 md:mt-16 pt-6 md:pt-8 border-t border-heritage-gold/10 flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
+          <p className="text-heritage-gray-light text-xs md:text-sm">
             &copy; {currentYear} Heritage Horsepower. All rights reserved.
           </p>
-          <div className="flex space-x-6">
-            <a href="#" className="text-heritage-gray-light hover:text-heritage-gold transition-colors text-sm">
+          <div className="flex space-x-4 md:space-x-6">
+            <a href="#" className="text-heritage-gray-light hover:text-heritage-gold transition-colors text-xs md:text-sm">
               Privacy Policy
             </a>
-            <a href="#" className="text-heritage-gray-light hover:text-heritage-gold transition-colors text-sm">
+            <a href="#" className="text-heritage-gray-light hover:text-heritage-gold transition-colors text-xs md:text-sm">
               Terms of Service
             </a>
           </div>

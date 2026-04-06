@@ -23,17 +23,17 @@ const CTA = () => {
           <span className="text-heritage-gold text-sm font-medium tracking-widest uppercase mb-4 block">
             Begin Your Journey
           </span>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-heritage-cream mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-heritage-cream mb-4 md:mb-6">
             Ready to Find Your
             <br />
             <span className="text-gradient">Perfect Machine?</span>
           </h2>
-          <p className="text-heritage-gray-light text-xl leading-relaxed mb-10 max-w-2xl mx-auto">
+          <p className="text-heritage-gray-light text-base md:text-xl leading-relaxed mb-8 md:mb-10 max-w-2xl mx-auto px-4 sm:px-0">
             Whether you're seeking a specific model or simply exploring possibilities, 
             our concierge team is ready to guide you toward automotive excellence.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
             <Link to="/contact">
               <Button variant="primary" size="lg">
                 Schedule a Consultation
@@ -48,7 +48,7 @@ const CTA = () => {
             </a>
           </div>
 
-          <p className="mt-8 text-heritage-gray-light text-sm">
+          <p className="mt-6 md:mt-8 text-heritage-gray-light text-xs md:text-sm">
             Available Monday through Saturday, 9:00 AM - 6:00 PM GMT
           </p>
         </motion.div>

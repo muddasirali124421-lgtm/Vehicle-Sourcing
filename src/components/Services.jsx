@@ -32,10 +32,10 @@ const Services = () => {
           description="Whether you're seeking the perfect addition to your collection or an unforgettable driving experience, we deliver excellence at every turn."
         />
 
-        <div className="grid md:grid-cols-2 gap-8 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-10 md:mt-16">
           {services.map((service, index) => (
             <Card key={service.title} className="group">
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-48 sm:h-56 md:h-64 overflow-hidden">
                 <div 
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
                   style={{ backgroundImage: `url('${service.image}')` }}
@@ -47,11 +47,11 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-8">
-                <h3 className="text-2xl font-serif font-semibold text-heritage-cream mb-4">
+              <div className="p-6 md:p-8">
+                <h3 className="text-xl md:text-2xl font-serif font-semibold text-heritage-cream mb-3 md:mb-4">
                   {service.title}
                 </h3>
-                <p className="text-heritage-gray-light leading-relaxed mb-6">
+                <p className="text-heritage-gray-light text-sm md:text-base leading-relaxed mb-4 md:mb-6">
                   {service.description}
                 </p>
                 <Link to={service.link}>

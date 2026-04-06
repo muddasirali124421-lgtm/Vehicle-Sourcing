@@ -53,7 +53,7 @@ const WhyChoose = () => {
           description="We combine old-world craftsmanship with modern expertise to deliver an unparalleled automotive experience."
         />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-10 md:mt-16">
           {reasons.map((reason, index) => (
             <motion.div
               key={reason.title}
@@ -62,15 +62,15 @@ const WhyChoose = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
               whileHover={{ y: -8 }}
-              className="bg-heritage-dark p-8 rounded-2xl border border-heritage-gold/10 hover:border-heritage-gold/30 transition-all duration-300"
+              className="bg-heritage-dark p-6 md:p-8 rounded-2xl border border-heritage-gold/10 hover:border-heritage-gold/30 transition-all duration-300"
             >
-              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-heritage-gold/20 to-heritage-gold/5 flex items-center justify-center mb-6">
-                <reason.icon size={28} className="text-heritage-gold" />
+              <div className="w-12 h-12 md:w-14 md:h-14 rounded-xl bg-gradient-to-br from-heritage-gold/20 to-heritage-gold/5 flex items-center justify-center mb-4 md:mb-6">
+                <reason.icon size={24} className="md:w-7 md:h-7 text-heritage-gold" />
               </div>
-              <h3 className="text-xl font-serif font-semibold text-heritage-cream mb-3">
+              <h3 className="text-lg md:text-xl font-serif font-semibold text-heritage-cream mb-2 md:mb-3">
                 {reason.title}
               </h3>
-              <p className="text-heritage-gray-light leading-relaxed">
+              <p className="text-heritage-gray-light text-sm md:text-base leading-relaxed">
                 {reason.description}
               </p>
             </motion.div>

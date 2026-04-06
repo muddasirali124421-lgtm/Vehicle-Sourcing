@@ -73,15 +73,15 @@ const Hero = () => {
         className="relative z-10 h-full flex items-center"
       >
         <div className="container-custom px-4 sm:px-6 lg:px-8 w-full">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start lg:items-center h-full py-8 pt-28 lg:pt-8">
             
             {/* Left Side - Text & Buttons */}
-            <div className="max-w-xl">
+            <div className="flex flex-col justify-center order-1">
               <motion.span
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-heritage-gold text-sm font-medium tracking-[0.3em] uppercase mb-6 block"
+                className="text-heritage-gold text-xs sm:text-sm font-medium tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-4 sm:mb-6 block"
               >
                 Est. 2008
               </motion.span>
@@ -90,7 +90,7 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className="text-5xl sm:text-6xl md:text-7xl font-serif font-bold text-heritage-gold leading-[0.9] mb-6"
+                className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif font-bold text-heritage-gold leading-[0.9] mb-4 sm:mb-6"
               >
                 Heritage
                 <br />
@@ -101,7 +101,7 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
-                className="text-lg md:text-xl text-heritage-gray-light mb-10 leading-relaxed"
+                className="text-base sm:text-lg md:text-xl text-heritage-gray-light mb-6 sm:mb-8 md:mb-10 leading-relaxed max-w-xl"
               >
                 Curating exceptional classic and luxury automobiles for discerning collectors worldwide
               </motion.p>
@@ -131,9 +131,9 @@ const Hero = () => {
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="hidden lg:block"
+              className="order-2 flex justify-center lg:justify-end lg:mt-16"
             >
-              <div className="relative bg-heritage-dark/80 backdrop-blur-md rounded-2xl p-6 border border-heritage-gold/20 overflow-hidden">
+              <div className="relative bg-heritage-dark/80 backdrop-blur-md rounded-2xl p-4 sm:p-6 border border-heritage-gold/20 overflow-hidden max-w-md lg:max-w-[450px] w-full ml-auto">
                 {/* Feature Card Header */}
                 <div className="flex items-center justify-between mb-6">
                   <div>
@@ -205,7 +205,7 @@ const Hero = () => {
                 </div>
 
                 {/* Quick Stats */}
-                <div className="grid grid-cols-3 gap-4 pt-4 border-t border-heritage-gold/10">
+                <div className="flex justify-between items-center pt-4 border-t border-heritage-gold/10">
                   {stats.map((stat) => (
                     <div key={stat.label} className="text-center">
                       <stat.icon size={20} className="text-heritage-gold mx-auto mb-2" />

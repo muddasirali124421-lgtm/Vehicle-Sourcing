@@ -41,10 +41,10 @@ const Experiences = () => {
           description="Immerse yourself in unforgettable automotive adventures designed for the discerning enthusiast."
         />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-10 md:mt-16">
           {experiences.map((exp, index) => (
             <Card key={exp.title} className="group">
-              <div className="relative h-56 overflow-hidden">
+              <div className="relative h-48 sm:h-52 md:h-56 overflow-hidden">
                 <div 
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
                   style={{ backgroundImage: `url('${exp.image}')` }}
@@ -63,15 +63,15 @@ const Experiences = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-6">
-                <div className="flex items-center text-heritage-gray-light text-sm mb-3">
-                  <MapPin size={14} className="mr-1 text-heritage-gold" />
+              <div className="p-4 sm:p-6">
+                <div className="flex items-center text-heritage-gray-light text-xs sm:text-sm mb-2 sm:mb-3">
+                  <MapPin size={12} className="sm:w-3.5 sm:h-3.5 mr-1 text-heritage-gold" />
                   {exp.location}
                 </div>
-                <h3 className="text-xl font-serif font-semibold text-heritage-cream mb-3 group-hover:text-heritage-gold transition-colors">
+                <h3 className="text-lg sm:text-xl font-serif font-semibold text-heritage-cream mb-2 sm:mb-3 group-hover:text-heritage-gold transition-colors">
                   {exp.title}
                 </h3>
-                <p className="text-heritage-gray-light text-sm leading-relaxed mb-4">
+                <p className="text-heritage-gray-light text-xs sm:text-sm leading-relaxed mb-3 sm:mb-4">
                   {exp.description}
                 </p>
                 <Link 

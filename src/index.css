@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-padding {
-  @apply py-24 px-4 sm:px-6 lg:px-8;
+  @apply py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8;
 }
 
 .container-custom {

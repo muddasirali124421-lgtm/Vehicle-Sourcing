@@ -26,11 +26,11 @@ const SectionHeading = ({
           {subtitle}
         </span>
       )}
-      <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-heritage-cream mb-6">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-heritage-cream mb-4 md:mb-6">
         {title}
       </h2>
       {description && (
-        <p className="text-heritage-gray-light text-lg max-w-2xl mx-auto leading-relaxed">
+        <p className="text-heritage-gray-light text-base md:text-lg max-w-2xl mx-auto leading-relaxed px-4 sm:px-0">
           {description}
         </p>
       )}
