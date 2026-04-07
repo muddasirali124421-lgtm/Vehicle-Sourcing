@@ -43,7 +43,7 @@ const AboutPage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('/src/assets/maxresdefault (1).jpg')`,
+            backgroundImage: `url('/images/maxresdefault (1).jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-heritage-black/70 via-heritage-black/50 to-heritage-black" />

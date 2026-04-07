@@ -58,7 +58,7 @@ const Contact = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('/src/assets/car3.jpg')`,
+            backgroundImage: `url('/images/car3.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-heritage-black/70 via-heritage-black/50 to-heritage-black" />

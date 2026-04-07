@@ -11,14 +11,14 @@ const Services = () => {
       icon: Search,
       title: 'Vehicle Sourcing',
       description: 'Access our global network to find rare classics, limited editions, and investment-grade vehicles matched to your exact specifications.',
-      image: '/src/assets/068d4bc05d7a99c1cbd0eae05c6583a8.jpg',
+      image: '/images/068d4bc05d7a99c1cbd0eae05c6583a8.jpg',
       link: '/vehicle-sourcing'
     },
     {
       icon: Calendar,
       title: 'Automotive Experiences',
       description: 'From exclusive track days to curated driving tours through scenic American highways, experience muscle car motoring at its finest.',
-      image: '/src/assets/maxresdefault (1).jpg',
+      image: '/images/maxresdefault (1).jpg',
       link: '/automotive-experiences'
     }
   ]

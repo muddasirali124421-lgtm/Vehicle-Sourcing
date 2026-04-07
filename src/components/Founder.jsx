@@ -66,7 +66,7 @@ const Founder = () => {
               <div 
                 className="aspect-[4/3] rounded-2xl bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('/src/assets/car2.jpg')`,
+                  backgroundImage: `url('/images/car2.jpg')`,
                 }}
               />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-heritage-black/40 to-transparent" />

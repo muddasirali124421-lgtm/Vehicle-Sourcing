@@ -51,7 +51,7 @@ const WhyChoose = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center blur-md scale-105"
           style={{
-            backgroundImage: `url('/src/assets/car3.jpg')`,
+            backgroundImage: `url('/images/car3.jpg')`,
           }}
         />
       </div>

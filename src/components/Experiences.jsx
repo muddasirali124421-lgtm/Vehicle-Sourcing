@@ -11,7 +11,7 @@ const Experiences = () => {
       location: 'Chicago to Los Angeles',
       duration: '7 Days',
       group: '12 Participants',
-      image: '/src/assets/maxresdefault.jpg',
+      image: '/images/maxresdefault.jpg',
       description: 'Drive the legendary Mother Road in period-correct American muscle cars, experiencing the golden age of American motoring.'
     },
     {
@@ -19,7 +19,7 @@ const Experiences = () => {
       location: 'Phoenix to Las Vegas',
       duration: '3 Days',
       group: '8 Participants',
-      image: '/src/assets/maxresdefault (1).jpg',
+      image: '/images/maxresdefault (1).jpg',
       description: 'Push American muscle to the limit through dramatic desert highways and mountain passes with expert guidance.'
     },
     {
@@ -27,7 +27,7 @@ const Experiences = () => {
       location: 'Daytona Speedway',
       duration: '2 Days',
       group: '16 Participants',
-      image: '/src/assets/car7.jpg',
+      image: '/images/car7.jpg',
       description: 'Experience the raw power of classic muscle cars on the legendary high banks of Daytona with professional instruction.'
     }
   ]

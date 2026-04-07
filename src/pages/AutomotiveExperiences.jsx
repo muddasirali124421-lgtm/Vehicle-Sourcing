@@ -13,7 +13,7 @@ const AutomotiveExperiences = () => {
       duration: '7 Days',
       group: '12 Participants',
       price: 'From $8,500',
-      image: '/src/assets/maxresdefault.jpg',
+      image: '/images/maxresdefault.jpg',
       description: 'Drive the legendary Mother Road in period-correct American muscle cars, from Illinois to California.',
       highlights: ['1960s muscle car provided', 'Historic motels stay', 'Diner experiences', 'Grand Canyon stop']
     },
@@ -23,7 +23,7 @@ const AutomotiveExperiences = () => {
       duration: '3 Days',
       group: '8 Participants',
       price: 'From $4,500',
-      image: '/src/assets/maxresdefault (1).jpg',
+      image: '/images/maxresdefault (1).jpg',
       description: 'Push American muscle to the limit through dramatic desert highways and mountain passes.',
       highlights: ['High-speed desert runs', 'Las Vegas finale', 'Professional coaching', 'Garage tours']
     },
@@ -33,7 +33,7 @@ const AutomotiveExperiences = () => {
       duration: '2 Days',
       group: '16 Participants',
       price: 'From $3,500',
-      image: '/src/assets/car7.jpg',
+      image: '/images/car7.jpg',
       description: 'Experience the raw power of classic muscle cars on the legendary high banks of Daytona.',
       highlights: ['Track time included', 'Professional instruction', 'Pit lane access', 'Victory lane photos']
     },
@@ -43,7 +43,7 @@ const AutomotiveExperiences = () => {
       duration: '4 Days',
       group: '10 Participants',
       price: 'From $6,000',
-      image: '/src/assets/5d55d871e501f2ae0df45d876ad7e031.jpg',
+      image: '/images/5d55d871e501f2ae0df45d876ad7e031.jpg',
       description: 'Cruise the iconic PCH in classic American convertibles from San Francisco to Los Angeles.',
       highlights: ['Convertible muscle cars', 'Big Sur coastline', 'Monterey stop', 'Santa Monica finale']
     },
@@ -53,7 +53,7 @@ const AutomotiveExperiences = () => {
       duration: '3 Days',
       group: '12 Participants',
       price: 'From $3,000',
-      image: '/src/assets/edff9d914a098e64f1c046c04d5464d4.jpg',
+      image: '/images/edff9d914a098e64f1c046c04d5464d4.jpg',
       description: 'Explore the birthplace of American muscle with factory tours and Woodward Dream Cruise.',
       highlights: ['Factory tours', 'Muscle car museum', 'Woodward Avenue', 'Private collection visits']
     },
@@ -63,7 +63,7 @@ const AutomotiveExperiences = () => {
       duration: '4 Days',
       group: '8 Participants',
       price: 'From $5,500',
-      image: '/src/assets/1ba9c3297081b75f99e6cb4a6df883d6.jpg',
+      image: '/images/1ba9c3297081b75f99e6cb4a6df883d6.jpg',
       description: 'Tackle the Tail of the Dragon and scenic Blue Ridge Parkway in powerful V8 classics.',
       highlights: ['Tail of the Dragon', 'Mountain cabins', 'BBQ experiences', 'Scenic overlooks']
     }
@@ -92,7 +92,7 @@ const AutomotiveExperiences = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('/src/assets/maxresdefault.jpg')`,
+            backgroundImage: `url('/images/maxresdefault.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-heritage-black/70 via-heritage-black/50 to-heritage-black" />
@@ -232,7 +232,7 @@ const AutomotiveExperiences = () => {
               <div 
                 className="aspect-square rounded-2xl bg-cover bg-center max-w-md lg:max-w-none mx-auto"
                 style={{
-                  backgroundImage: `url('/src/assets/068d4bc05d7a99c1cbd0eae05c6583a8.jpg')`,
+                  backgroundImage: `url('/images/068d4bc05d7a99c1cbd0eae05c6583a8.jpg')`,
                 }}
               />
               <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-32 h-32 md:w-48 md:h-48 bg-heritage-green/30 rounded-2xl -z-10" />
