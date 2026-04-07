@@ -11,7 +11,7 @@ const Experiences = () => {
       location: 'Brescia to Rome',
       duration: '4 Days',
       group: '12 Participants',
-      image: 'https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2?auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1611241893603-3c359704e0ee?auto=format&fit=crop&q=80&w=800',
       description: 'Join us for the world\'s most beautiful race, driving through Tuscany and Umbria in period-correct classic automobiles.'
     },
     {
@@ -19,7 +19,7 @@ const Experiences = () => {
       location: 'Highlands, Scotland',
       duration: '3 Days',
       group: '8 Participants',
-      image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=800',
       description: 'Experience dramatic landscapes, winding mountain roads, and exclusive castle stays in the UK\'s most scenic driving territory.'
     },
     {
@@ -27,7 +27,7 @@ const Experiences = () => {
       location: 'Monte Carlo',
       duration: '5 Days',
       group: '20 Participants',
-      image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800',
       description: 'The ultimate Formula 1 weekend featuring yacht hospitality, pit lane access, and a parade lap on the legendary circuit.'
     }
   ]

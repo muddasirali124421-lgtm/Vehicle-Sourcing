@@ -13,7 +13,7 @@ const AutomotiveExperiences = () => {
       duration: '4 Days',
       group: '12 Participants',
       price: 'From €15,000',
-      image: 'https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2?auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1611241893603-3c359704e0ee?auto=format&fit=crop&q=80&w=800',
       description: 'Join the world\'s most beautiful race, driving through Tuscany and Umbria in period-correct classics.',
       highlights: ['Period-correct vehicle provided', 'Castle accommodations', 'Gala dinner in Florence', 'VIP grandstand access']
     },
@@ -23,7 +23,7 @@ const AutomotiveExperiences = () => {
       duration: '3 Days',
       group: '8 Participants',
       price: 'From £8,500',
-      image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=800',
       description: 'Winding mountain roads, dramatic landscapes, and exclusive castle stays in the UK\'s most scenic territory.',
       highlights: ['Luxury lodge accommodation', 'Whisky distillery tour', 'Private road sections', 'Gourmet dining']
     },
@@ -33,7 +33,7 @@ const AutomotiveExperiences = () => {
       duration: '5 Days',
       group: '20 Participants',
       price: 'From €25,000',
-      image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800',
       description: 'The ultimate F1 weekend with yacht hospitality, pit lane access, and parade lap on the legendary circuit.',
       highlights: ['Yacht hospitality', 'Pit lane access', 'Driver meet & greet', 'Casino evening']
     },
@@ -43,7 +43,7 @@ const AutomotiveExperiences = () => {
       duration: '2-3 Days',
       group: '16 Participants',
       price: 'From €5,000',
-      image: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=800',
       description: 'Experience the Green Hell with professional instruction and a fleet of track-prepared vehicles.',
       highlights: ['Professional instruction', 'Track-prepared cars', 'Garage hospitality', 'Onboard video']
     },
@@ -53,7 +53,7 @@ const AutomotiveExperiences = () => {
       duration: '5 Days',
       group: '10 Participants',
       price: 'From €12,000',
-      image: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&q=80&w=800',
       description: 'Drive the legendary Madonie circuit in classic Italian sports cars through mountain villages.',
       highlights: ['Classic Italian cars', 'Historic route', 'Vineyard dinners', 'Palermo exploration']
     },
@@ -63,7 +63,7 @@ const AutomotiveExperiences = () => {
       duration: '4 Days',
       group: '6 Participants',
       price: 'From €10,000',
-      image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800',
       description: 'Coastal roads, cliffside villages, and luxury accommodations on Italy\'s most glamorous coastline.',
       highlights: ['Cliffside driving', 'Positano stay', 'Boat excursion', 'Michelin dining']
     }
@@ -92,7 +92,7 @@ const AutomotiveExperiences = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&q=80')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1534093607318-f025413f49f9?auto=format&fit=crop&q=80&w=1920')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-heritage-black/70 via-heritage-black/50 to-heritage-black" />
@@ -232,7 +232,7 @@ const AutomotiveExperiences = () => {
               <div 
                 className="aspect-square rounded-2xl bg-cover bg-center max-w-md lg:max-w-none mx-auto"
                 style={{
-                  backgroundImage: `url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80')`,
+                  backgroundImage: `url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=800')`,
                 }}
               />
               <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-32 h-32 md:w-48 md:h-48 bg-heritage-green/30 rounded-2xl -z-10" />

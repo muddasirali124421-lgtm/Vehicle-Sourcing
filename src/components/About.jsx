@@ -14,6 +14,16 @@ const About = () => {
       {/* Background Accent */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-heritage-green/5 to-transparent" />
       
+      {/* Subtle Classic Car Background */}
+      <div className="absolute inset-0 opacity-[0.05]">
+        <div 
+          className="absolute inset-0 bg-cover bg-center blur-md scale-110"
+          style={{
+            backgroundImage: `url('/src/assets/d6b0017730ead84ba26fc234b5553efd.jpg')`,
+          }}
+        />
+      </div>
+      
       <div className="container-custom relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 lg:gap-16 items-center">
           {/* Image Side */}
@@ -28,7 +38,7 @@ const About = () => {
               <div 
                 className="aspect-[4/5] rounded-2xl bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80')`,
+                  backgroundImage: `url('/src/assets/car2.jpg')`,
                 }}
               />
               <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-heritage-green rounded-2xl -z-10" />

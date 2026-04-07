@@ -11,6 +11,16 @@ const CTA = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-heritage-green/10 via-transparent to-heritage-gold/5" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-heritage-gold/10 blur-3xl" />
       </div>
+      
+      {/* Subtle Classic Car Background */}
+      <div className="absolute inset-0 opacity-[0.04]">
+        <div 
+          className="absolute inset-0 bg-cover bg-center blur-md scale-105"
+          style={{
+            backgroundImage: `url('/src/assets/d6b0017730ead84ba26fc234b5553efd.jpg')`,
+          }}
+        />
+      </div>
 
       <div className="container-custom relative z-10">
         <motion.div

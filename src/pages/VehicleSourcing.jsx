@@ -33,22 +33,22 @@ const VehicleSourcing = () => {
     {
       title: 'Pre-War Classics',
       description: 'Brass-era automobiles and vintage masterpieces from the golden age of motoring.',
-      image: 'https://images.unsplash.com/photo-1552519507-da3b1421fb31?auto=format&fit=crop&q=80'
+      image: '/src/assets/edff9d914a098e64f1c046c04d5464d4.jpg'
+    },
+    {
+      title: 'American Muscle',
+      description: 'The legendary V8 powerhouses that defined American automotive performance culture.',
+      image: '/src/assets/maxresdefault (3).jpg'
     },
     {
       title: 'Post-War Icons',
       description: 'The legendary machines that defined automotive culture from the 1940s to 1970s.',
-      image: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80'
-    },
-    {
-      title: 'Modern Classics',
-      description: 'Limited editions and investment-grade vehicles from the 1980s to present day.',
-      image: 'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80'
+      image: '/src/assets/1ba9c3297081b75f99e6cb4a6df883d6.jpg'
     },
     {
       title: 'Competition Cars',
       description: 'Race-proven machines with documented competition history and proven performance.',
-      image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&q=80'
+      image: '/src/assets/car7.jpg'
     }
   ]
 
@@ -73,7 +73,7 @@ const VehicleSourcing = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80')`,
+            backgroundImage: `url('/src/assets/maxresdefault.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-heritage-black/70 via-heritage-black/50 to-heritage-black" />
@@ -137,7 +137,7 @@ const VehicleSourcing = () => {
               <div 
                 className="aspect-video rounded-2xl bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80')`,
+                  backgroundImage: `url('/src/assets/2a3abe213e3f29c2d18dad9c37ea5d15.jpg')`,
                 }}
               />
               <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-24 h-24 md:w-32 md:h-32 bg-heritage-gold/20 rounded-2xl -z-10" />

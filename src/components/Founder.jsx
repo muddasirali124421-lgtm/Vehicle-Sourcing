@@ -64,9 +64,9 @@ const Founder = () => {
           >
             <div className="relative max-w-md lg:max-w-none mx-auto">
               <div 
-                className="aspect-[3/4] rounded-2xl bg-cover bg-center"
+                className="aspect-[4/3] rounded-2xl bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80')`,
+                  backgroundImage: `url('/src/assets/car1.jpg')`,
                 }}
               />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-heritage-black/40 to-transparent" />

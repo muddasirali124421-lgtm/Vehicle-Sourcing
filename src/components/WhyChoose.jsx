@@ -45,6 +45,16 @@ const WhyChoose = () => {
           backgroundSize: '40px 40px'
         }} />
       </div>
+      
+      {/* Subtle Classic Car Background */}
+      <div className="absolute inset-0 opacity-[0.04]">
+        <div 
+          className="absolute inset-0 bg-cover bg-center blur-md scale-105"
+          style={{
+            backgroundImage: `url('/src/assets/d6b0017730ead84ba26fc234b5553efd.jpg')`,
+          }}
+        />
+      </div>
 
       <div className="container-custom relative z-10">
         <SectionHeading
