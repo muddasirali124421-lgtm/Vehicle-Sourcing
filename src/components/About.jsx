@@ -38,7 +38,7 @@ const About = () => {
               <div 
                 className="aspect-[4/5] rounded-2xl bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('/images/5d55d871e501f2ae0df45d876ad7e031.jpg')`,
+                  backgroundImage: `url('/images/car1.jpg')`,
                 }}
               />
               <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-heritage-green rounded-2xl -z-10" />
