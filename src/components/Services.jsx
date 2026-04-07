@@ -17,8 +17,8 @@ const Services = () => {
     {
       icon: Calendar,
       title: 'Automotive Experiences',
-      description: 'From exclusive track days to curated driving tours through Europe\'s most scenic routes, experience motoring at its finest.',
-      image: '/src/assets/car4.jpg',
+      description: 'From exclusive track days to curated driving tours through scenic American highways, experience muscle car motoring at its finest.',
+      image: '/src/assets/maxresdefault (1).jpg',
       link: '/automotive-experiences'
     }
   ]

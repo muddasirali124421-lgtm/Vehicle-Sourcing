@@ -7,28 +7,28 @@ import SectionHeading from './ui/SectionHeading'
 const Experiences = () => {
   const experiences = [
     {
-      title: 'Mille Miglia Revival',
-      location: 'Brescia to Rome',
-      duration: '4 Days',
+      title: 'Route 66 Muscle Run',
+      location: 'Chicago to Los Angeles',
+      duration: '7 Days',
       group: '12 Participants',
-      image: 'https://images.unsplash.com/photo-1611241893603-3c359704e0ee?auto=format&fit=crop&q=80&w=800',
-      description: 'Join us for the world\'s most beautiful race, driving through Tuscany and Umbria in period-correct classic automobiles.'
+      image: '/src/assets/maxresdefault.jpg',
+      description: 'Drive the legendary Mother Road in period-correct American muscle cars, experiencing the golden age of American motoring.'
     },
     {
-      title: 'Scottish Highlands Rally',
-      location: 'Highlands, Scotland',
+      title: 'Desert Muscle Rally',
+      location: 'Phoenix to Las Vegas',
       duration: '3 Days',
       group: '8 Participants',
-      image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=800',
-      description: 'Experience dramatic landscapes, winding mountain roads, and exclusive castle stays in the UK\'s most scenic driving territory.'
+      image: '/src/assets/maxresdefault (1).jpg',
+      description: 'Push American muscle to the limit through dramatic desert highways and mountain passes with expert guidance.'
     },
     {
-      title: 'Monaco Grand Prix Experience',
-      location: 'Monte Carlo',
-      duration: '5 Days',
-      group: '20 Participants',
-      image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800',
-      description: 'The ultimate Formula 1 weekend featuring yacht hospitality, pit lane access, and a parade lap on the legendary circuit.'
+      title: 'Track Day Thunder',
+      location: 'Daytona Speedway',
+      duration: '2 Days',
+      group: '16 Participants',
+      image: '/src/assets/car7.jpg',
+      description: 'Experience the raw power of classic muscle cars on the legendary high banks of Daytona with professional instruction.'
     }
   ]
 

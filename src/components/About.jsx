@@ -19,7 +19,7 @@ const About = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center blur-md scale-110"
           style={{
-            backgroundImage: `url('/src/assets/d6b0017730ead84ba26fc234b5553efd.jpg')`,
+            backgroundImage: `url('/src/assets/car1.jpg')`,
           }}
         />
       </div>
@@ -38,7 +38,7 @@ const About = () => {
               <div 
                 className="aspect-[4/5] rounded-2xl bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('/src/assets/car2.jpg')`,
+                  backgroundImage: `url('/src/assets/5d55d871e501f2ae0df45d876ad7e031.jpg')`,
                 }}
               />
               <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-heritage-green rounded-2xl -z-10" />

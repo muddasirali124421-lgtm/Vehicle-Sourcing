@@ -17,7 +17,7 @@ const CTA = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center blur-md scale-105"
           style={{
-            backgroundImage: `url('/src/assets/d6b0017730ead84ba26fc234b5553efd.jpg')`,
+            backgroundImage: `url('/src/assets/car4.jpg')`,
           }}
         />
       </div>

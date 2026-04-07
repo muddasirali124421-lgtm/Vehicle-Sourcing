@@ -73,7 +73,7 @@ const VehicleSourcing = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('/src/assets/maxresdefault.jpg')`,
+            backgroundImage: `url('/src/assets/360_F_980473079_GJmswDXUvXahT18ra0awcrPpdxn2Md4Q.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-heritage-black/70 via-heritage-black/50 to-heritage-black" />
@@ -137,7 +137,7 @@ const VehicleSourcing = () => {
               <div 
                 className="aspect-video rounded-2xl bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('/src/assets/2a3abe213e3f29c2d18dad9c37ea5d15.jpg')`,
+                  backgroundImage: `url('/src/assets/car1.jpg')`,
                 }}
               />
               <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-24 h-24 md:w-32 md:h-32 bg-heritage-gold/20 rounded-2xl -z-10" />

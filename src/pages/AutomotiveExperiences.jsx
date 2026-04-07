@@ -8,64 +8,64 @@ import Card from '../components/ui/Card'
 const AutomotiveExperiences = () => {
   const experiences = [
     {
-      title: 'The Mille Miglia Revival',
-      location: 'Italy',
-      duration: '4 Days',
+      title: 'Route 66 Muscle Run',
+      location: 'Chicago to LA',
+      duration: '7 Days',
       group: '12 Participants',
-      price: 'From €15,000',
-      image: 'https://images.unsplash.com/photo-1611241893603-3c359704e0ee?auto=format&fit=crop&q=80&w=800',
-      description: 'Join the world\'s most beautiful race, driving through Tuscany and Umbria in period-correct classics.',
-      highlights: ['Period-correct vehicle provided', 'Castle accommodations', 'Gala dinner in Florence', 'VIP grandstand access']
+      price: 'From $8,500',
+      image: '/src/assets/maxresdefault.jpg',
+      description: 'Drive the legendary Mother Road in period-correct American muscle cars, from Illinois to California.',
+      highlights: ['1960s muscle car provided', 'Historic motels stay', 'Diner experiences', 'Grand Canyon stop']
     },
     {
-      title: 'Scottish Highlands Rally',
-      location: 'Scotland',
+      title: 'Desert Muscle Rally',
+      location: 'Arizona / Nevada',
       duration: '3 Days',
       group: '8 Participants',
-      price: 'From £8,500',
-      image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=800',
-      description: 'Winding mountain roads, dramatic landscapes, and exclusive castle stays in the UK\'s most scenic territory.',
-      highlights: ['Luxury lodge accommodation', 'Whisky distillery tour', 'Private road sections', 'Gourmet dining']
+      price: 'From $4,500',
+      image: '/src/assets/maxresdefault (1).jpg',
+      description: 'Push American muscle to the limit through dramatic desert highways and mountain passes.',
+      highlights: ['High-speed desert runs', 'Las Vegas finale', 'Professional coaching', 'Garage tours']
     },
     {
-      title: 'Monaco Grand Prix Experience',
-      location: 'Monaco',
-      duration: '5 Days',
-      group: '20 Participants',
-      price: 'From €25,000',
-      image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800',
-      description: 'The ultimate F1 weekend with yacht hospitality, pit lane access, and parade lap on the legendary circuit.',
-      highlights: ['Yacht hospitality', 'Pit lane access', 'Driver meet & greet', 'Casino evening']
-    },
-    {
-      title: 'Nürburgring Track Days',
-      location: 'Germany',
-      duration: '2-3 Days',
+      title: 'Daytona Track Experience',
+      location: 'Daytona, Florida',
+      duration: '2 Days',
       group: '16 Participants',
-      price: 'From €5,000',
-      image: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=800',
-      description: 'Experience the Green Hell with professional instruction and a fleet of track-prepared vehicles.',
-      highlights: ['Professional instruction', 'Track-prepared cars', 'Garage hospitality', 'Onboard video']
+      price: 'From $3,500',
+      image: '/src/assets/car7.jpg',
+      description: 'Experience the raw power of classic muscle cars on the legendary high banks of Daytona.',
+      highlights: ['Track time included', 'Professional instruction', 'Pit lane access', 'Victory lane photos']
     },
     {
-      title: 'Targa Florio Tribute',
-      location: 'Sicily',
-      duration: '5 Days',
-      group: '10 Participants',
-      price: 'From €12,000',
-      image: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&q=80&w=800',
-      description: 'Drive the legendary Madonie circuit in classic Italian sports cars through mountain villages.',
-      highlights: ['Classic Italian cars', 'Historic route', 'Vineyard dinners', 'Palermo exploration']
-    },
-    {
-      title: 'Amalfi Coast Grand Tour',
-      location: 'Italy',
+      title: 'Pacific Coast Highway Cruise',
+      location: 'California',
       duration: '4 Days',
-      group: '6 Participants',
-      price: 'From €10,000',
-      image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800',
-      description: 'Coastal roads, cliffside villages, and luxury accommodations on Italy\'s most glamorous coastline.',
-      highlights: ['Cliffside driving', 'Positano stay', 'Boat excursion', 'Michelin dining']
+      group: '10 Participants',
+      price: 'From $6,000',
+      image: '/src/assets/5d55d871e501f2ae0df45d876ad7e031.jpg',
+      description: 'Cruise the iconic PCH in classic American convertibles from San Francisco to Los Angeles.',
+      highlights: ['Convertible muscle cars', 'Big Sur coastline', 'Monterey stop', 'Santa Monica finale']
+    },
+    {
+      title: 'Detroit Muscle Heritage Tour',
+      location: 'Michigan',
+      duration: '3 Days',
+      group: '12 Participants',
+      price: 'From $3,000',
+      image: '/src/assets/edff9d914a098e64f1c046c04d5464d4.jpg',
+      description: 'Explore the birthplace of American muscle with factory tours and Woodward Dream Cruise.',
+      highlights: ['Factory tours', 'Muscle car museum', 'Woodward Avenue', 'Private collection visits']
+    },
+    {
+      title: 'Smoky Mountains Run',
+      location: 'Tennessee / NC',
+      duration: '4 Days',
+      group: '8 Participants',
+      price: 'From $5,500',
+      image: '/src/assets/1ba9c3297081b75f99e6cb4a6df883d6.jpg',
+      description: 'Tackle the Tail of the Dragon and scenic Blue Ridge Parkway in powerful V8 classics.',
+      highlights: ['Tail of the Dragon', 'Mountain cabins', 'BBQ experiences', 'Scenic overlooks']
     }
   ]
 
@@ -92,7 +92,7 @@ const AutomotiveExperiences = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1534093607318-f025413f49f9?auto=format&fit=crop&q=80&w=1920')`,
+            backgroundImage: `url('/src/assets/maxresdefault.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-heritage-black/70 via-heritage-black/50 to-heritage-black" />
@@ -107,13 +107,13 @@ const AutomotiveExperiences = () => {
               Curated Adventures
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-heritage-cream mb-4 md:mb-6">
-              Automotive
+              Muscle Car
               <br />
               <span className="text-gradient">Experiences</span>
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-heritage-gray-light max-w-2xl">
-              From exclusive track days to curated driving tours through Europe's 
-              most scenic routes—experience motoring at its finest.
+              From Route 66 road trips to track days at Daytona—experience 
+              American muscle motoring at its finest.
             </p>
           </motion.div>
         </div>
@@ -232,7 +232,7 @@ const AutomotiveExperiences = () => {
               <div 
                 className="aspect-square rounded-2xl bg-cover bg-center max-w-md lg:max-w-none mx-auto"
                 style={{
-                  backgroundImage: `url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=800')`,
+                  backgroundImage: `url('/src/assets/068d4bc05d7a99c1cbd0eae05c6583a8.jpg')`,
                 }}
               />
               <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-32 h-32 md:w-48 md:h-48 bg-heritage-green/30 rounded-2xl -z-10" />

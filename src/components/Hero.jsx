@@ -18,19 +18,19 @@ const Hero = () => {
   
   const featuredCars = [
     {
-      name: '1967 Ford Mustang GT',
+      name: '1969 Dodge Charger R/T',
       category: 'American Muscle',
-      image: '/src/assets/maxresdefault (2).jpg'
+      image: '/src/assets/car7.jpg'
     },
     {
-      name: '1957 Chevrolet Bel Air',
-      category: 'Classic American',
-      image: '/src/assets/5d55d871e501f2ae0df45d876ad7e031.jpg'
+      name: '1967 Shelby GT500',
+      category: 'American Muscle',
+      image: '/src/assets/1ba9c3297081b75f99e6cb4a6df883d6.jpg'
     },
     {
-      name: '1938 Packard Super Eight',
-      category: 'Pre-War Luxury',
-      image: '/src/assets/360_F_980473079_GJmswDXUvXahT18ra0awcrPpdxn2Md4Q.jpg'
+      name: '1969 Chevrolet Camaro SS',
+      category: 'American Muscle',
+      image: '/src/assets/edff9d914a098e64f1c046c04d5464d4.jpg'
     }
   ]
 
@@ -60,7 +60,7 @@ const Hero = () => {
         <div 
           className="w-full h-full bg-cover bg-center"
           style={{
-            backgroundImage: `url('/src/assets/maxresdefault.jpg')`,
+            backgroundImage: `url('/src/assets/maxresdefault (3).jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-heritage-black via-heritage-black/80 to-heritage-black/50" />
